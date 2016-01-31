@@ -1,0 +1,22 @@
+{
+  "name": "datedropper",
+  "version": "1.3.0",
+  "description": "datedropper is a jQuery plugin that provides a quick and easy way to manage dates for input fields.",
+  "main": "datedropper.js",
+  "scripts": {
+    "minify": "minify --output datedropper.min.js datedropper.js; minify --output datedropper.min.css datedropper.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minond/datedropper.git"
+  },
+  "author": "Felice Gattuso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minond/datedropper/issues"
+  },
+  "homepage": "https://github.com/minond/datedropper#readme",
+  "devDependencies": {
+    "minifier": "0.7.1"
+  }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="browser-ie7 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="browser-ie8 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="browser-ie9 lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="browser-modern"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="datedropper.min.css">
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script src="datedropper.min.js"></script>
+    </head>
+    <body>
+        <button>remove</button>
+        <input type="text" />
+        <script>
+            $('input').dateDropper({
+                animate_current: false,
+                animation: 'dropDown',
+                borderColor: '#cecece',
+                boxShadow: '0 0px 0px 3px rgba(0,0,0,0.05)',
+                color: '#27b8e8',
+                format: 'm/d/Y',
+                lang: 'en',
+            });
+
+            $('button').click(function () {
+                $('input').dateDropper('remove');
+            });
+        </script>
+    </body>
+</html>
