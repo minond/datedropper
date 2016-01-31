@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/minond/datedropper.git"
+    "url": "git+https://github.com/felicegattuso/datedropper.git"
   },
   "author": "Felice Gattuso",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/minond/datedropper/issues"
+    "url": "https://github.com/felicegattuso/datedropper/issues"
   },
-  "homepage": "https://github.com/minond/datedropper#readme",
+  "homepage": "https://github.com/felicegattuso/datedropper#readme",
   "devDependencies": {
     "minifier": "0.7.1"
   }
